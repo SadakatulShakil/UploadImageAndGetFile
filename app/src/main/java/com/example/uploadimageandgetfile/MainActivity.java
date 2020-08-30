@@ -102,6 +102,7 @@ public static final String TAG ="Main";
 
                 File f = new File(filePath);
                 String nickPath = f.getName();
+                fileNameTv.setText(nickPath);
                 Log.d(TAG, "onActivityResult: "+"OriginalFile: "+f.toString());
                 Log.d(TAG, "onActivityResult: "+"NickNameOfFile: "+nickPath);
 

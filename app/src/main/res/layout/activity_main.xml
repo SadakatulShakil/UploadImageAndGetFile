@@ -32,6 +32,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="TextView"
+        android:textColor="@color/green"
+        android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
